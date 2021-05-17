@@ -1,0 +1,82 @@
+
+h1, h2, h3, h4, h5, p, a, label, input, iframe{
+    margin-left: 15px;
+  }
+  input, label { 
+    margin: 10px;
+  }
+  nav{
+    padding: 0px;
+  }
+  nav .navbar-nav li a{
+    color: black !important;
+  }
+  nav .navbar-nav li a:hover{
+    color: gray !important;
+  }
+  .centered {
+    text-align: center;
+  }
+
+  .centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* div.card {
+    width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    width: 90%; 
+    text-align: center; 
+    padding: 20px;
+    margin: auto; 
+    margin-bottom: 10px;
+    opacity: 0.4;
+  } */
+
+  div.card1 {
+    width: 100%;
+    height: 10em;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    display: block;
+    text-align: center; 
+    padding: 20px;
+    margin: 0; 
+    margin-bottom: 10px;
+  }
+  .align-left {
+    text-align: left;
+  }
+  .banner {
+    background-image: url("pictures/medical_1.jpg");
+  }
+  .col {
+    height: 10em;
+  }
+
+  #box {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+  }
+
+  .bg-custom-2 {
+    background-image: linear-gradient(15deg, #85DCB9 0%, #80d0c7 100%);
+    }
+.nav_box:hover {
+  text-decoration: underline;
+}
+.forum {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  width: 30%;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  margin-top: 3%;
+}
